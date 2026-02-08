@@ -2,6 +2,7 @@ import os
 import logging
 import pandas as pd
 from sklearn.preprocessing import LabelEncoder
+import yaml
 from nltk.stem.porter import PorterStemmer
 from nltk.corpus import stopwords
 import string
